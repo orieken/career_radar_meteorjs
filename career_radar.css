@@ -1,0 +1,28 @@
+/* CSS declarations go here */
+
+article#user_dets {
+
+
+    width: 100%;
+    margin: auto;
+    border: 1px solid green;
+}
+
+article {
+    float: left;
+    width: 20%;
+    margin: 2px;
+    border: 1px solid black;
+}
+
+span {
+    font-weight: bold;
+}
+
+body {
+    background-color: lightblue;
+}
+
+#skills_area {
+    margin: auto;
+}

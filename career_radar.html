@@ -1,0 +1,71 @@
+<head>
+    <title>Career Radar</title>
+</head>
+<body>
+<h1>Career Radar</h1>
+
+<div id="user_details">
+    {{>userDetails}}
+</div>
+</body>
+
+
+<template name="userDetails">
+    {{#with user}}
+    <article id="user_dets">
+        <header>
+            <h1>{{firstName}} {{lastName}}</h1>
+        </header>
+        <div>
+            <span id="email">{{email}}</span>
+            <h6>{{date}}</h6>
+
+            <p>{{bio}}</p>
+        </div>
+    </article>
+
+    <div id="skills_area">
+    <article>
+        <header>
+            <h3>Language: </h3>
+        </header>
+        <ul>
+            {{#each languages}}
+            <li>{{languageName}}: {{skill}}</li>
+            {{/each}}
+        </ul>
+    </article>
+    <article>
+        <header>
+            <h3>Tools</h3>
+        </header>
+        <ul>
+            {{#each tools}}
+            <li>{{toolName}}: {{skill}}</li>
+            {{/each}}
+        </ul>
+    </article>
+
+    <article>
+        <header>
+            <h3>Techniques</h3>
+        </header>
+        <ul>
+            {{#each techniques}}
+            <li>{{techniqueName}}: {{skill}}</li>
+            {{/each}}
+        </ul>
+    </article>
+    <article>
+        <header>
+            <h3>Platforms</h3>
+        </header>
+        <ul>
+            {{#each platforms}}
+            <li>{{platformName}}: {{skill}}</li>
+            {{/each}}
+        </ul>
+    </article>
+    </div>
+    {{/with}}
+</template>
