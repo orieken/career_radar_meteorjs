@@ -4,9 +4,15 @@
 <body>
 <h1>Career Radar</h1>
 
+<div id="chart_area">
+    {{>chart}}
+</div>
+
 <div id="user_details">
     {{>userDetails}}
 </div>
+
+
 </body>
 
 
@@ -68,4 +74,10 @@
     </article>
     </div>
     {{/with}}
+</template>
+
+<template name="chart">
+    {{#constant}}
+<h1>Hi</h1>
+    {{/constant}}
 </template>
