@@ -1,5 +1,8 @@
 {
-  "packages": {
-    "bootstrap3-less": {}
-  }
+    "meteor": {
+        "tag": "0.7.0.1"
+    },
+    "packages": {
+        "bootstrap3-less": {}
+    }
 }
