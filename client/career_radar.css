@@ -1,0 +1,69 @@
+/* CSS declarations go here */
+body {
+    /*background-color: #3182bd;*/
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+article#user_dets {
+    background-color: rgb(52, 73, 94);
+    color: white;
+    margin: auto;
+    padding-left: 10px;
+    border: 1px solid;
+    text-decoration: none;
+}
+
+span {
+    font-weight: bold;
+}
+
+#profile_links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+div #profiles {
+    width: 25%;
+}
+
+#profile_links li,
+ul.languages li {
+    background: transparent;
+    display: inline;
+    padding-left: 10px;
+}
+
+#profile_links li a,
+ul.languages li a{
+    width: 32px;
+    height: 32px;
+}
+
+img.logo {
+    width: 32px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: #697c52;
+    font-style: italic;
+    font-size: 30px;
+}
+
+#chart_area, #contact_me {
+    padding-top: 100px;
+}
+
+#chart_area {
+    background-color: #efefe9;
+}
+
+.section {
+    padding-top: 100px;
+}
+
+#user_details,
+#chart_area,
+#contact,
+#bio {
+    padding: 25px 20px;
+    padding-bottom: 35px;
+}
