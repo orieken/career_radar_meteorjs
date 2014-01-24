@@ -67,7 +67,7 @@
         </div>
         <div>
             <span id="email">{{email}}</span>
-            <p id="date">{{date}}</p>
+            <p id="date">Last Updated on:  {{date}}</p>
             <div id="profiles">
                 <ul id="profile_links">
                     <li id="github_link"><a href="{{githubUrl}}"><img class="logo" src="/images/GitHub-Mark-32px.png"/></a></li>
@@ -110,12 +110,12 @@
             </div>
             <div id="#{{companyName}}" class="panel-collapse collapse in">
                 <div class="panel-body">
-                    <div>{{dateStarted}} - {{dateEnded}}</div>
+                    <!--<div>{{dateStarted}} - {{dateEnded}}</div>-->
                     <div><small>{{details}}</small></div>
                     <div>
                         <ul class="languages">
                             {{#each technologies}}
-                            <li id="{{techName}}"><img alt="{{techName}}" class="logo" src="/images/{{techIcon}}.png" /></li>
+                            <li id="{{techName}}"><img alt="{{techName}}" title="{{techName}}" class="logo" src="/images/{{techIcon}}.png" /></li>
                             {{/each}}
                         </ul>
                     </div>

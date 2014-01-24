@@ -4,7 +4,7 @@ if (Meteor.isClient) {
             firstName: 'Oscar',
             lastName: 'Rieken',
             email: 'oriekenjr@gmail.com',
-            date: new Date().toTimeString(),
+            date: 'Thu Jan 23 2014 23:59:05',
             bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ac fringilla metus.",
             githubUrl: "https://github.com/orieken",
             twitterUrl: "https://twitter.com/OscarRieken",
@@ -32,8 +32,8 @@ if (Meteor.isClient) {
             experience: [
                 {
                     companyName: 'Manheim',
-                    dateStarted: '01.2012',
-                    dateEnded: 'Current',
+//                    dateStarted: '01.2012',
+//                    dateEnded: 'Current',
                     details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ac fringilla metus.',
                     technologies: [
                         { techName: 'Ruby', techIcon: 'ruby-logo'},
@@ -52,8 +52,8 @@ if (Meteor.isClient) {
                 },
                 {
                     companyName: 'ThoughtWorks',
-                    dateStarted: '07.2012',
-                    dateEnded: '12.2011',
+//                    dateStarted: '07.2012',
+//                    dateEnded: '12.2011',
                     details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ac fringilla metus.',
                     technologies: [
                         { techName: 'Ruby', techIcon: 'ruby-logo'},
@@ -63,8 +63,42 @@ if (Meteor.isClient) {
                         { techName: 'Selenium-WebDriver', techIcon: 'Seleniumlogo'},
                         { techName: 'Selenium-Grid', techIcon: 'selenium-grid'},
                         { techName: 'Rails', techIcon: 'rails'},
-                        { techName: 'CSharp.Net', techIcon: 'dot-net'},
+                        { techName: 'CSharp.Net', techIcon: 'csharp-logo'},
                         { techName: 'jQuery', techIcon: 'jquery-logo'}
+                    ]
+                },
+                {
+                    companyName: 'S3',
+//                    dateStarted: '07.2012',
+//                    dateEnded: '12.2011',
+                    details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ac fringilla metus.',
+                    technologies: [
+                        { techName: 'CSharp.Net', techIcon: 'csharp-logo'},
+                        { techName: 'VB.Net', techIcon: 'vb-net-logo'},
+                        { techName: 'QTP', techIcon: 'qtp-logo'}
+                    ]
+                },
+                {
+                    companyName: 'VGT',
+//                    dateStarted: '07.2012',
+//                    dateEnded: '12.2011',
+                    details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ac fringilla metus.',
+                    technologies: [
+                        { techName: 'CSharp.Net', techIcon: 'csharp-logo'},
+                        { techName: 'Selenium-WebDriver', techIcon: 'Seleniumlogo'},
+                        { techName: 'QTP', techIcon: 'qtp-logo'}
+                    ]
+                },
+                {
+                    companyName: 'OCA',
+//                    dateStarted: '07.2012',
+//                    dateEnded: '12.2011',
+                    details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ac fringilla metus.',
+                    technologies: [
+                        { techName: 'CSharp.Net', techIcon: 'csharp-logo'},
+                        { techName: 'VB.Net', techIcon: 'vb-net-logo'},
+                        { techName: 'Visual Basic', techIcon: 'vb6-logo'},
+                        { techName: 'Rational Robot', techIcon: 'rational-robot-logo'}
                     ]
                 }
             ]
