@@ -20,6 +20,14 @@
     </div>
 </div>
 
+
+<div class="jumbotron">
+    <div id="training" class="container section">
+        <h1>Training</h1>
+        {{>training}}
+    </div>
+</div>
+
 <div class="jumbotron">
     <div id="contact" class="container section">
         <h1>Contact</h1>
@@ -54,6 +62,7 @@
             <li><a href="#bio">Bio</a></li>
             <li><a href="#experience">Experience</a></li>
             <li><a href="#chart_area">Skills</a></li>
+            <li><a href="#training">Training</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
@@ -135,6 +144,24 @@
     </p>
     {{/with}}
 </template>
+
+<template name="training">
+    {{#with user}}
+    <div class="panel-group" id="accordion">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion">Training</a>
+                </h4>
+            </div>
+            <div>
+                <p>{{bio}}</p>
+            </div>
+        </div>
+    </div>
+    {{/with}}
+</template>
+
 <!--this will always be empty we are
 dynamically creating the chart with d3-->
 <template name="chart">
