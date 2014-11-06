@@ -1,0 +1,1 @@
+Oscar = new Meteor.Collection('oscar');

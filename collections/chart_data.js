@@ -1,0 +1,1 @@
+ChartData = new Meteor.Collection('chartData');

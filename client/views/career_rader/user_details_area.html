@@ -1,0 +1,19 @@
+<template name="userDetails">
+    {{#with user}}
+    <article id="user_dets" class="details">
+        <div class="page-header">
+            <h1>{{firstName}} {{lastName}}</h1>
+        </div>
+        <div>
+            <span id="email">{{email}}</span>
+            <p id="date">Last Updated on:  {{date}}</p>
+            <div id="profiles">
+                <ul id="profile_links">
+                    <li id="github_link"><a href="{{githubUrl}}"><img class="logo" src="/images/GitHub-Mark-32px.png"/></a></li>
+                    <li id="twitter_link"><a href="{{twitterUrl}}"><img class="logo" src="/images/Twitter_logo_blue.png"/></a></li>
+                </ul>
+            </div>
+        </div>
+    </article>
+    {{/with}}
+</template>

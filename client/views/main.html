@@ -1,0 +1,55 @@
+<head>
+    <meta charset="UTF-8">
+    <script type="text/javascript" src="/client/compatibility/jquery.localScroll.min.js"></script>
+    <script type="text/javascript" src="/client/compatibility/jquery.scrollTo.min.js"></script>
+    <script type="text/javascript" src="/client/compatibility/scroller.js"></script>
+    <title>Oscar Rieken's Career Radar</title>
+</head>
+<body>
+<!--<div class="container">-->
+    {{> header}}
+    <div id="main" class="row-fluid">
+        <div class="jumbotron">
+            <div id="user_details" class="container section">
+                {{>userDetails}}
+            </div>
+        </div>
+
+        <div class="jumbotron">
+            <div id="chart_area" class="container section">
+                <h1>Skills</h1>
+                {{>chart}}
+            </div>
+        </div>
+
+
+        <div class="jumbotron">
+            <div id="training" class="container section">
+                <h1>Training</h1>
+                {{>training}}
+            </div>
+        </div>
+
+        <div class="jumbotron">
+            <div id="contact" class="container section">
+                <h1>Contact</h1>
+                {{>contact_me}}
+            </div>
+        </div>
+
+        <div class="jumbotron">
+            <div id="bio" class="container section">
+                <h1>Bio</h1>
+                {{>bio_area}}
+            </div>
+        </div>
+
+        <div class="jumbotron">
+            <div id="experience" class="container section">
+                <h1>Experience</h1>
+                {{>experience_area}}
+            </div>
+        </div>
+    </div>
+<!--</div>-->
+</body>

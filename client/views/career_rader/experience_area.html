@@ -1,0 +1,29 @@
+<template name="experience_area">
+    {{#with user}}
+    <div class="panel-group" id="exp_accordion">
+        {{#each experience}}
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#exp_accordion" href="#{{companyName}}">{{companyName}}</a>
+                </h4>
+            </div>
+            <div id="#{{companyName}}" class="panel-collapse collapse in">
+                <div class="panel-body">
+                    <!--<div>{{dateStarted}} - {{dateEnded}}</div>-->
+                    <div><small>{{details}}</small></div>
+                    <div>
+                        <ul class="languages">
+                            {{#each technologies}}
+                            <li id="{{techName}}"><img alt="{{techName}}" title="{{techName}}" class="logo" src="/images/{{techIcon}}.png" /></li>
+                            {{/each}}
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        {{/each}}
+    </div>
+    {{/with}}
+</template>
