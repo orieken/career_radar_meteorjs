@@ -2,6 +2,10 @@
     "name": "career_radar",
     "version": "0.0.1",
     "engines": {
-        "node": "0.10.24"
+        "node": "0.10.24",
+        "npm": "2.1.7"
+    },
+    "scripts": {
+        "postinstall": "echo postinstall time!!!!!!!!!!;"
     }
 }
