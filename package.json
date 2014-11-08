@@ -4,5 +4,9 @@
     "engines": {
         "node": "0.10.24",
         "npm": "2.1.7"
+    },
+    "scripts": {
+        "preinstall": "echo postinstall time!!!!!!!!!!;"
+        "postinstall": "echo postinstall time!!!!!!!!!!;"
     }
 }
